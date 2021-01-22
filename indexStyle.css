@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    font-size: 15px;
+    text-align-last: right;
+}
+.usuario {
+    width: 70px;
+    background-color: orange ;
+}
+.google {
+    width: 200px;
+}
+h2{
+    background-color: lightgray;
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+}
