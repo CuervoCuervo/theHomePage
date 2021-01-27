@@ -1,21 +1,45 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 h1 {
     font-size: 15px;
     text-align-last: right;
 }
 .usuario {
-    width: 70px;
-    background-color: orange ;
+    width: 50px;
+    border-color: rgb(50, 116, 50) ;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
 }
 .google {
-    width: 200px;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{
     background-color: lightgray;
     font-size: 20px;
+    text-align: left;
+    margin-bottom: 5%;
 }
 p{
-    font-size: 14px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#searchBar{
+    padding: 2%;
+    margin-left: 37%;
+}
+#Buttons{
+    padding-bottom: 15%;
+    margin-left: 39%;
+}
+footer{
+    background-color: lightgray;
 }
