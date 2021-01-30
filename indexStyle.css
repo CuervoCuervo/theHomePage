@@ -3,6 +3,10 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    min-width: 400px;
 }
 h1 {
     font-size: 15px;
@@ -11,9 +15,9 @@ h1 {
 .usuario {
     width: 50px;
     border-color: rgb(50, 116, 50) ;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 100px;
 }
 .google {
     width: 20%;
@@ -30,16 +34,72 @@ h2{
 p{
     font-size: 15px;
     text-align: center;
-    margin-bottom: 5%;
+    margin-top: 30px;
+    margin-right: 2px;
 }
 #searchBar{
-    padding: 2%;
+    padding: 0px;
     margin-left: 37%;
+    border-radius: 10px;
+    border: 2px solid rgb(182, 178, 178);
+    top: 50%;
+    bottom: 0;
+    text-align: center;
+    height: 100px;
 }
-#Buttons{
-    padding-bottom: 15%;
+#ButtonSearch{
+    padding-bottom: 0%;
     margin-left: 39%;
+}
+#ButtonLucky{
+    padding-bottom: 0%;
+    margin-left: 0%;
+    margin-top: 2%;
 }
 footer{
     background-color: lightgray;
+    display: flex;
+    flex: auto;
+    align-content: flex-end;
+    height: 100px;
+    margin-top: 17%;
+}
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+#ButtonBar:hover{
+    color: brown;
+}
+#ButtonSearch:hover{
+    color: hotpink;
+}
+#ButtonLucky:hover{
+    color: chocolate;
+}
+.About{
+    flex: auto;
+    margin: auto;
+    width: 10px;
+}
+.Advertising{
+    flex: auto;
+    margin: auto;
+    width: 10px;
+}
+.Business{
+    flex:auto;
+    margin: auto;
+    width: 10px;
+}
+.Search{
+    flex: auto;
+    margin: auto;
+    width: 10px;
+}
+.Privacy{
+    flex-direction: row-reverse;
 }
