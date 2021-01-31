@@ -38,23 +38,45 @@ p{
     margin-right: 2px;
 }
 #searchBar{
-    padding: 0px;
-    margin-left: 37%;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    margin-left: 27%;
     border-radius: 10px;
-    border: 2px solid rgb(182, 178, 178);
+    border: 2px transparent rgba(0, 0, 0, 0);
+    border-bottom: rgba(0, 0, 0, 0.87);
+    border-top: rgba(0, 0, 0, 0.87);
+    border-left: rgba(0, 0, 0, 0.87);
+    border-right: rgba(0, 0, 0, 0.87);
     top: 50%;
     bottom: 0;
     text-align: center;
-    height: 100px;
+    height: 34px;
+    width: 582px;
+    font-size: 24px;
+    background-color: #f8f9fa
+}
+#ButtonBar{
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-weight: bold;
 }
 #ButtonSearch{
     padding-bottom: 0%;
     margin-left: 39%;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-weight: bold;
 }
 #ButtonLucky{
     padding-bottom: 0%;
     margin-left: 0%;
     margin-top: 2%;
+    height: 36px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-weight: bold;
 }
 footer{
     background-color: lightgray;
@@ -62,7 +84,7 @@ footer{
     flex: auto;
     align-content: flex-end;
     height: 100px;
-    margin-top: 17%;
+    margin-top: 21%;
 }
 a{
     color: black;
@@ -71,14 +93,21 @@ a{
 a:hover{
     color: blue;
 }
+#SearchBar:hover{
+    background-color: transparent;
+}
 #ButtonBar:hover{
     color: brown;
+    background-color: ghostwhite;
+    font-weight: bold;
 }
 #ButtonSearch:hover{
     color: hotpink;
+    font-weight: bold;
 }
 #ButtonLucky:hover{
     color: chocolate;
+    font-weight: bold;
 }
 .About{
     flex: auto;
