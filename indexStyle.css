@@ -41,7 +41,7 @@ p{
     padding: 5px 8px 0 16px;
     padding-left: 14px;
     margin-left: 27%;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px transparent rgba(0, 0, 0, 0);
     border-bottom: rgba(0, 0, 0, 0.87);
     border-top: rgba(0, 0, 0, 0.87);
@@ -53,7 +53,8 @@ p{
     height: 34px;
     width: 582px;
     font-size: 24px;
-    background-color: #f8f9fa
+    background-color: #f8f9fa;
+    font-size: 14px;
 }
 #ButtonBar{
     height: 36px;
@@ -80,11 +81,11 @@ p{
 }
 footer{
     background-color: lightgray;
-    display: flex;
-    flex: auto;
-    align-content: flex-end;
     height: 100px;
     margin-top: 21%;
+    color: #70757a;
+    font-size: 14px;
+    font-family: arial, sans-serif;
 }
 a{
     color: black;
@@ -109,26 +110,90 @@ a:hover{
     color: chocolate;
     font-weight: bold;
 }
+#barraUno{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 .About{
     flex: auto;
     margin: auto;
     width: 10px;
+    order: 1;
+    color: #70757a;
+}
+.About:hover{
+    color:#70757a;
+    font-weight: bold;
 }
 .Advertising{
     flex: auto;
     margin: auto;
     width: 10px;
+    order: 2;
+    color: #70757a;
+}
+.Advertising:hover{
+    color:#70757a;
+    font-weight: bold;
 }
 .Business{
-    flex:auto;
+    flex: auto;
     margin: auto;
     width: 10px;
+    order: 3;
+    color: #70757a;
+}
+.Business:hover{
+    color:#70757a;
+    font-weight: bold;
 }
 .Search{
     flex: auto;
     margin: auto;
     width: 10px;
+    order: 4;
+    color: #70757a;
+}
+.Search:hover{
+    color:#70757a;
+    font-weight: bold;
+}
+#barraDos{
+    display: flex;
+    text-align: center;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .Privacy{
-    flex-direction: row-reverse;
+    flex: auto;
+    order: 5;
+    margin-top: 41px;
+    color: #70757a;
+}
+.Privacy:hover{
+    color:#70757a;
+    font-weight: bold;
+}
+.Terms{
+    flex: auto;
+    order: 6;
+    margin-top: 41px;
+    color: #70757a;
+}
+.Terms:hover{
+    color:#70757a;
+    font-weight: bold;
+}
+.Settings{
+    flex: auto;
+    order: 7;
+    margin-top: 41px;
+    color: #70757a;
+}
+.Settings:hover{
+    color:#70757a;
+    font-weight: bold;
 }
