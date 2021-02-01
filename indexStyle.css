@@ -53,7 +53,7 @@ p{
     height: 34px;
     width: 582px;
     font-size: 24px;
-    background-color: #f8f9fa;
+    background-color: #FFF;
     font-size: 14px;
 }
 #ButtonBar{
@@ -95,7 +95,10 @@ a:hover{
     color: blue;
 }
 #SearchBar:hover{
-    background-color: transparent;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+
 }
 #ButtonBar:hover{
     color: brown;
@@ -111,16 +114,13 @@ a:hover{
     font-weight: bold;
 }
 #barraUno{
-    display: flex;
-    align-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 15px;
+    justify-self: start;
 }
 .About{
     flex: auto;
     margin: auto;
-    width: 10px;
-    order: 1;
     color: #70757a;
 }
 .About:hover{
@@ -130,8 +130,6 @@ a:hover{
 .Advertising{
     flex: auto;
     margin: auto;
-    width: 10px;
-    order: 2;
     color: #70757a;
 }
 .Advertising:hover{
@@ -141,8 +139,6 @@ a:hover{
 .Business{
     flex: auto;
     margin: auto;
-    width: 10px;
-    order: 3;
     color: #70757a;
 }
 .Business:hover{
@@ -152,8 +148,6 @@ a:hover{
 .Search{
     flex: auto;
     margin: auto;
-    width: 10px;
-    order: 4;
     color: #70757a;
 }
 .Search:hover{
@@ -161,15 +155,11 @@ a:hover{
     font-weight: bold;
 }
 #barraDos{
-    display: flex;
-    text-align: center;
-    align-content: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 15px;
+    justify-self: end;
 }
 .Privacy{
-    flex: auto;
-    order: 5;
     margin-top: 41px;
     color: #70757a;
 }
@@ -178,8 +168,6 @@ a:hover{
     font-weight: bold;
 }
 .Terms{
-    flex: auto;
-    order: 6;
     margin-top: 41px;
     color: #70757a;
 }
@@ -188,12 +176,14 @@ a:hover{
     font-weight: bold;
 }
 .Settings{
-    flex: auto;
-    order: 7;
     margin-top: 41px;
     color: #70757a;
 }
 .Settings:hover{
     color:#70757a;
     font-weight: bold;
+}
+#Argentina{
+    display: grid;
+    grid-template-rows: 50px;
 }
