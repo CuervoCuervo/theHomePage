@@ -11,6 +11,7 @@ body {
 h1 {
     font-size: 15px;
     text-align-last: right;
+    font-weight: 100;
 }
 .usuario {
     width: 50px;
@@ -24,6 +25,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 92px;
 }
 h2{
     background-color: lightgray;
@@ -80,12 +82,20 @@ p{
     font-weight: bold;
 }
 footer{
+    display: grid;
     background-color: lightgray;
     height: 100px;
     margin-top: 21%;
-    color: #70757a;
+    color: rgba(0,0,0,.54);
+    border-bottom: 1px solid rgb(218, 220, 224);
     font-size: 14px;
     font-family: arial, sans-serif;
+}
+.Gmail:hover{
+    font-weight: bold;
+}
+.Images:hover{
+    font-weight: bold;
 }
 a{
     color: black;
@@ -114,14 +124,22 @@ a:hover{
     font-weight: bold;
 }
 #barraUno{
-    display: grid;
-    grid-template-columns: 15px;
     justify-self: start;
+    background-color: lightgray;
+    grid-column: 1/3;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    align-self: end;
+    height: 50px;
+    place-content: center;
+    line-height: 50px;
+    border-top: 1px solid rgb(218, 220, 224);
 }
 .About{
     flex: auto;
     margin: auto;
     color: #70757a;
+    padding: 5px 20px;
 }
 .About:hover{
     color:#70757a;
@@ -137,31 +155,38 @@ a:hover{
     font-weight: bold;
 }
 .Business{
-    flex: auto;
     margin: auto;
     color: #70757a;
+    padding: 17px;
 }
 .Business:hover{
     color:#70757a;
     font-weight: bold;
 }
 .Search{
-    flex: auto;
     margin: auto;
     color: #70757a;
+    padding: 10px 10px;
 }
 .Search:hover{
     color:#70757a;
     font-weight: bold;
 }
 #barraDos{
-    display: grid;
-    grid-template-columns: 15px;
     justify-self: end;
+    background-color: lightgray;
+    grid-column: span 2/7;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    height: 50px;
+    place-content: center;
+    line-height: 50px;
+    border-top: 1px solid rgb(218, 220, 224);
 }
 .Privacy{
     margin-top: 41px;
     color: #70757a;
+    padding: 15px;
 }
 .Privacy:hover{
     color:#70757a;
@@ -170,6 +195,7 @@ a:hover{
 .Terms{
     margin-top: 41px;
     color: #70757a;
+    padding: 15px;
 }
 .Terms:hover{
     color:#70757a;
@@ -178,12 +204,17 @@ a:hover{
 .Settings{
     margin-top: 41px;
     color: #70757a;
+    padding: 15px;
 }
 .Settings:hover{
     color:#70757a;
     font-weight: bold;
 }
 #Argentina{
-    display: grid;
-    grid-template-rows: 50px;
+    grid-column: auto;
+    background-color: lightgray;
+    height: 50px;
+    padding: 0px 30px;
+    line-height: 50px;
+
 }
